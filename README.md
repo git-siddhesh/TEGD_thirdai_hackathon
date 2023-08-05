@@ -75,5 +75,6 @@ By running the notebook `Thirdai_gdrive_engine_TEGD.ipynb`
 
 ## DATA Link
 
+https://drive.google.com/drive/folders/1tNJ-r6-URDAcU0VOZJ_h50hs4PrO5EkN?usp=sharing
 
 
