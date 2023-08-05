@@ -48,7 +48,18 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
+### NOTE:
+> We are having a user input option in the notebook, as the extraction and training of audio file is time consuming.
 
+> Please give input as `y` to the cell if you want to train your G-Drive's audio files.
+
+```python
+mp3_train = False
+print("Do you want to fetch and train mp3 files too?")
+print("It will take a lot of time. You can skip it for now")
+if 'y' in input("Press 'y' to extract audio files else press 'n'").lower():
+  mp3_train = True
+```
 
 By running the notebook `Thirdai_gdrive_engine_TEGD.ipynb` 
 
@@ -78,3 +89,11 @@ By running the notebook `Thirdai_gdrive_engine_TEGD.ipynb`
 https://drive.google.com/drive/folders/1tNJ-r6-URDAcU0VOZJ_h50hs4PrO5EkN?usp=sharing
 
 
+## Try Our Demo
+
+[DEMO](https://github.com/git-siddhesh/TEGD_thirdai_hackathon/blob/main/Thirdai_gdrive_engine_TEGD.ipynb)
+
+
+## Note: We are not submitting the model, as our main Moto is to keep data private. You can just train your model on your own personal data.
+
+#POCKETLLM
